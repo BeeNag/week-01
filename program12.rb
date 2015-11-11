@@ -25,3 +25,21 @@ arr.each do | item |
 end
 
 puts arr2
+
+puts "-------"
+
+arr = ["hi","bye","good times"]
+arr2 = []
+arr2 = arr.map do |item|
+	item.upcase
+end
+
+puts arr2
+
+puts "-----------"
+
+list = [2,6,4]
+
+doubled = list.map {|item| item * 2}
+
+puts doubled
