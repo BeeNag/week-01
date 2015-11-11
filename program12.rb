@@ -15,3 +15,13 @@ arr.each do | item |
 end
 
 puts "Sum is #{sum}"
+
+puts "--------"
+
+arr = ["hi","bye","good times"]
+arr2 = []
+arr.each do | item | 
+	arr2 << item.upcase
+end
+
+puts arr2
