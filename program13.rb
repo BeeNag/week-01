@@ -13,7 +13,7 @@ def computer_input
     computer = "p"
   elsif computer == 1
     computer = "r"
-  else
+  elsif computer == 2
     computer = "s"
   end
 end
@@ -59,7 +59,7 @@ player_input = gets.chomp.downcase
   elsif player_input == rock && computer_input == rock ||
         player_input == paper && computer_input == paper ||
         player_input == scissors && computer_input == scissors
-    puts "Player chose rock. \nComputer chose rock."
+    
     puts "Tie, choose again"
   end
 
