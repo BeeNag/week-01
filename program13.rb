@@ -43,7 +43,7 @@ player_input = gets.chomp.downcase
 
   elsif computer_input == rock && player_input == scissors
     puts "Player chose scissors. \nComputer chose rock."
-    puts "Rock beats scissos, Computer wins the round"
+    puts "Rock beats scissors, Computer wins the round"
     $computer_count += 1
 
   elsif computer_input == scissors && player_input == paper
@@ -59,7 +59,6 @@ player_input = gets.chomp.downcase
   elsif player_input == rock && computer_input == rock ||
         player_input == paper && computer_input == paper ||
         player_input == scissors && computer_input == scissors
-    
     puts "Tie, choose again"
   end
 
